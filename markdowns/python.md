@@ -1,35 +1,25 @@
 # Python
 
-Sample solution in Python
+Let's start by checking our sample solution in Python:
 
 ```python runnable
-# https://www.codingame.com/training/easy/count-as-i-count
 import sys
-import math
-
-def getMollky(n, roundnum):
-    if ((roundnum > 4) or (n < 2) or (n > 50)):
-        return 0
-    if ((n == 49) and (roundnum == 4)):
-        return 0
-    if ((n == 49) or (n == 50)):
-        return 1
-    res = 0
-    i = 1
-    while ((i <= 12) and (n + i <= 50)):
-        if (i > 1):
-            res += 2 * getMollky(n + i, roundnum + 1)
-        else:
-            res += getMollky(n + i, roundnum + 1)
-        i = i + 1
-    return res
-
-n = int(input())
-ans = getMollky(n, 0)
-# Write an action using print
-# To debug: print("Debug messages...", file=sys.stderr)
+c = ("00","0")
+m = input()
+b = ""
+for w in m:
+    b += bin(ord(w))[2:].zfill(7)
+ans = c[int(b[0])] + " 0"
+for i in range(1, len(b)):
+    if (b[i] == b[i - 1]):
+        ans += '0'
+    else:
+        ans += " " + c[int(b[i])] + " 0"
+# print("debug message...", file=sys.stderr, flush=True)
 print(ans)
 ```
+
+Let's check this code to see the main characteristics of Python:
 
 # Resources to check
 

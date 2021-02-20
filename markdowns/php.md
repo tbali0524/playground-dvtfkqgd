@@ -1,38 +1,32 @@
-# Python
+# PHP
 
-Sample solution in Python
+Let's start by checking our sample solution in PHP:
 
 ```php runnable
 <?php
-// https://www.codingame.com/training/easy/count-as-i-count
-
-function getMollky(int $n, int $round): int
-{
-    if (($round > 4) or ($n < 2) or ($n > 50))
-        return 0;
-    if (($n == 49) and ($round == 4))
-        return 0;
-    if (($n == 49) or ($n == 50))
-        return 1;
-    $res = 0;
-    $i = 1;
-    while (($i <= 12) and ($n + $i <= 50))
-    {
-        if ($i > 1)
-            $res += 2 * getMollky($n + $i, $round + 1);
-        else
-            $res += getMollky($n + $i, $round + 1);
-        $i++;
-    }
-    return $res;
+declare(strict_types=1);
+$c = ['0' => '00', '1' => '0'];
+// $m = stream_get_line(STDIN, 100 + 1, "\n");
+$m = "CG";
+$b = '';
+for ($i = 0; $i < strlen($m); $i++) {
+    $b .= str_pad(decbin(ord($m[$i])), 7, '0', STR_PAD_LEFT);
 }
-
-fscanf(STDIN, "%d", $n);
-$ans = getMollky($n, 0);
-// Write an action using echo(). DON'T FORGET THE TRAILING \n
+$ans = $c[$b[0]] . ' 0';
+for ($i = 1; $i < strlen($b); $i++) {
+    if ($b[$i] == $b[$i - 1])
+        $ans .= '0';
+    else
+        $ans .= ' ' . $c[$b[$i]] . ' 0';
+}
 // To debug (equivalent to var_dump): error_log(var_export($var, true));
-echo $ans . "\n";
+echo $ans, PHP_EOL;
 ```
+
+Let's check this code to see the main characteristics of C#:
+
+- `<?` PHP was originally designed as a server side scrpit language for web pages. HTML markup and PHP code can me mixed in a file, sp `<?` denotes the start of a php section
+- `declare(strict_types=1);` PHP is infamous for its type-jungling.
 
 # Resources to check
 
