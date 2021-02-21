@@ -2,9 +2,15 @@ title: A Babel of Languages on CodinGame
 plan:
 - title: Intro
   statement: markdowns/intro.md
-- title: Python
-  statement: markdowns/python.md
 - title: C#
   statement: markdowns/cs.md
 - title: PHP
   statement: markdowns/php.md
+- title: Python
+  statement: markdowns/python.md
+- title: C++
+  statement: markdowns/cpp.md
+- title: D
+  statement: markdowns/d.md
+- title: Dart
+  statement: markdowns/dart.md
