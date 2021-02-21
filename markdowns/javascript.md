@@ -35,4 +35,4 @@ console.log(a);
 
 ## Coming next...
 
-So far, we have seen 2 managed languages and 3 interpreted languages. Now let's change gears and see what speed a native compiler can bring. Here comes: ~~C++~~, nah, what did you think of, it is **Pascal** of course! :-)
+So far, we have seen 2 _managed_ languages and 3 _interpreted_ languages. Now let's change gears and see what speed a _native compiler_ can bring. Entering the stage: ~~C++~~... Nah, what did you think of, it will be **Pascal**, of course! :-)

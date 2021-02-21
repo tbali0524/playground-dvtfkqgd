@@ -1,6 +1,6 @@
 # C#
 
-Let's start our journey by visiting **C#**. It is not the most-used language as of today, but provides modern features, and is used widely in enterprise application developement projects.
+Let's start our journey by visiting **C#**. It is not the most-used language as of today, but provides modern features, and is used widely in enterprise application development projects.
 
 ## Checking the sample code
 
@@ -68,10 +68,10 @@ While not directly visible from the above code snippet, there are some other imp
 
 - C# is compiled to an intermediate representation, which will be run by a special virtual machine (_Common Language Runtime_). Such managed code provides lot of advantages, like preventing many type of coding bugs.
 - _Just-In-Time_ compilation further improves performance. C# code runs still slightly slower than a native compiled code (such as _C++_ or _Rust_), but still much faster than an interpreted language (such as _Python_ or _PHP_).
-- C# is now cross platform. Although developed by _Microsoft_, it is available not only for _Windows_. It also became an _ECMA_ standard.
+- C# is now cross platform. Although developed by _Microsoft_, it is available not only for _Windows_. It also became an _ECMA standard_.
 - C# uses _garbage collection_, so you don't have to bother too much about memory management.
 - C# is a multi-paradigm languages. While its design is heavily OOP focused, you can use functional programming and some other styles.
-- There are many advanced language features we cannot address in this intro, such us generics, attributes, delegates, LINQ, etc.
+- There are many advanced language features we cannot address in this intro, such us _generics_, _attributes_, _delegates_, _LINQ_, etc.
 
 ## For further study
 

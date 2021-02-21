@@ -4,9 +4,9 @@
 
 ```go runnable
 package main
-import "os"
+// import "os"
 import "fmt"
-import "bufio"
+// import "bufio"
 import "strconv"
 func main() {
     // scanner := bufio.NewScanner(os.Stdin)

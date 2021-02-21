@@ -22,11 +22,11 @@ Module Solution
         Dim c(2) as String
         c(0) = "00"
         c(1) = "0"
-        Dim b = ""
+        Dim b As String = ""
         For Each ch As Char in m
             b = b & DecimalToBinary(Asc(ch)).PadLeft(7, "0")
         Next
-        Dim a = c(Asc(b.Chars(0)) - Asc("0")) & " 0"
+        Dim a As String = c(Asc(b.Chars(0)) - Asc("0")) & " 0"
         for i as Integer = 1 To b.Length() - 1
             if (b(i) = b(i - 1)) then
                 a = a & "0"

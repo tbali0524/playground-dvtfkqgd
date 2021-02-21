@@ -6,7 +6,8 @@
 import 'dart:io';
 import 'dart:math';
 void main() {
-    String m = stdin.readLineSync();
+    // String m = stdin.readLineSync();
+    String m = "CG";
     var c = {0 : "00", 1: "0"};
     String b = "";
     for(int i = 0; i < m.length; i++) {

@@ -19,45 +19,45 @@ Some frustration is guaranteed, but expect also some nice '_A-ha!_' moments. As 
 
 Throughout this article, I use the easy practice puzzle '[Chuck Norris](https://www.codingame.com/training/easy/chuck-norris)', as the example code. It is short, but already includes multiple language constructs. The sample solutions shown are not the shortest, nor the fastest code possible, they serve just as a common starting point for comparing the languages.
 
-If you haven't solved this puzzle yet, _I highly recommend to try to solve it_ in your favourite coding language, **before** continuing reading this article! I will not discuss the puzzle itself, or how the solution works. The focus of this article is solely the diversity of the programming languages. While technicaly you can copy the sample solutions to the puzzle IDE for a quick success of submit, but you will miss the learning opportunity by doing so.
+If you haven't solved this puzzle yet, _I highly recommend_ to **try to solve it** in your favourite coding language, **before** continuing reading this article! I will not discuss the puzzle itself, or how the solution works. The focus of this article is solely the diversity of the programming languages. While technicaly you can copy the sample solutions to the puzzle IDE for a quick success of submit, but you will miss the learning opportunity by doing so.
 
-_Note: In order the code snippets remain runnable in tech.io, I commented out the line that reads input from the standard stream, and replaced it with a constant input. For the real puzzle, of course you will need to read the input for the test cases._
+_Note: In order the code snippets remain runable in tech.io, I commented out the line that reads input from the standard stream, and replaced it with a constant input. For the real puzzle, of course you will need to read the input for the test cases._
 
-## Quick jump to a specific language
+## Languages covered
 
-I recommend reading this article in order, because the language under consideration is compared to languages that were already dealt with and only new features are highlighted. This order is nothing to do with the language popularity, but I did some grouping to make the discussion a bit easier to read.
-If you insist, you can still jump to a specific part of the article by using the direct links below:
+I recommend reading this article in order, because the language under consideration is compared to languages, that were already dealt with and only new features are highlighted. This order is nothing to do with the language popularity, but I did some grouping to make the discussion a bit easier to read.
 
+* If you insist, you can still jump to a specific part of the article by using the direct links below:
 [C#](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/cs)
 [Java](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/java)
 [PHP](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/php)
-[Python](./python)
-[JavaScript](./javascript)
-[C++](./cpp)
-[C](./c)
-[Rust](./rust)
-[Haskell](./haskell)
-[F#](./fs)
-[Bash](./bash)
-[Dart](./dart)
-[Go](./go)
-[Groovy](./groovy)
-[Kotlin](./kotlin)
-[Perl](./perl)
-[Ruby](./ruby)
-[Scala](./scala)
-[Swift](./swift)
-[VB.NET](./vbnet)
+[Python](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/python)
+[JavaScript](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/javascript)
+[C++](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/cpp)
+[C](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/c)
+[Rust](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/rust)
+[Haskell](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/haskell)
+[F#](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/fs)
+[Bash](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/bash)
+[Dart](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/dart)
+[Go](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/go)
+[Groovy](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/groovy)
+[Kotlin](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/kotlin)
+[Perl](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/perl)
+[Ruby](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/ruby)
+[Scala](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/scala)
+[Swift](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/swift)
+[VB.NET](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/vbnet)
 
-Supported on ´CodinGame´ but not supported on ´tech.io´:
-[Clojure](./clojure)
-[D](./d)
-[Lua](./lua)
-[ObjectiveC](./objectivec)
-[OCaml](./ocaml)
+* These are supported on `CodinGame` but not supported on `tech.io`:
+[Clojure](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/clojure)
+[D](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/d)
+[Lua](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/lua)
+[ObjectiveC](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/objectivec)
+[OCaml](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/ocaml)
 [Pascal](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/pascal)
-[TypeScript](./typescript)
+[TypeScript](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/typescript)
 
 [Conclusion](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/outro)
 
-**Let's get started!**
+## Let's get started!

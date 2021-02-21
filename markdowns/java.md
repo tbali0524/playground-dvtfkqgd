@@ -1,13 +1,16 @@
 # Java
 
-Java is 5 years older then C#. When C# was introduced in early 2000s, it was accused of being just an imitation of Java. The languages diverged much more since, but the similarities are still quite obvious.
+When C# was introduced in early 2000s, it was accused of being just an imitation of Java. (Java is 5 years older, than C#.) The languages diverged more since, but the similarities are still quite obvious.
 
 ## Checking the sample code
+
+**TODO** check why does not it find Main?
 
 ```java runnable
 import java.util.*;
 
 class Solution {
+
     public static void main(String args[]) {
         // Scanner in = new Scanner(System.in);
         // String m = in.nextLine();
@@ -31,17 +34,18 @@ class Solution {
 
 ## Looking at the syntax
 
-We can see similar features as in the C# sample solution, like classes, a static method for main, strong and static type system, arrays, type casting, iterators, loops, conditionals, etc. with just a slightly different syntax, so I will not go in detail.
+We can see similar features as in the C# sample solution, like:
+* classes, a static method for main, a strong and static type system, arrays, type casting, iterators, loops, conditionals, etc. The syntax is slightly different, but I will not go into detail for these features.
 
 Some differences:
-- _Java_'s `String` is _immutable_, so `StringBuilder` class is used to append characters to the solution.
-- In C# even the primitive types are objects. Java features wrapper classes for the same role. (e.g. `Integer` for `int`).
-- And of course there are [many other differences](https://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Java) which are not visible from such short sample code, and are beyond the scope of this introductory article.
+- _Java_'s `String` is _immutable_, so `StringBuilder` class is used to append characters to the solution character by character.
+- In C#, even the primitive types are objects. Java features wrapper classes for the same role. (e.g. `Integer` for `int`).
+- And, of course, there are [many more differences](https://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Java), which are not visible from such a short sample code, and are beyond the scope of this short introductory article.
 
 ## Other characteristics
 
-- Both _Java_ and _C#_ are 'managed' languages. Java compiles to Java bytecode which is then run on a JVM (_Java Virtual Machine_). Through JIT, their speed falls in the same range.
-- _Java_ is very popular in the enterprise application development, due to its 'write once, run anywhere' philosophy.
+- Both _Java_ and _C#_ are '_managed_' languages. _Java_ compiles to Java bytecode, which is then run on a JVM (_Java Virtual Machine_). By using _JIT_, their speeds fall in the same range.
+- _Java_ is very popular in the enterprise application development, due to its "_write once, run anywhere_" philosophy.
 
 ## Resources to check
 
@@ -50,4 +54,4 @@ Some differences:
 
 ## Coming next...
 
-After checking two compiled, managed languages with strong type systems, let's check some languages with a very different approach: weakly typed and interpreted! We start by looking at **PHP**!
+After checking 2 compiled, managed languages with a strong type system, let's explore some languages with a very different approach: weakly typed and interpreted! We start by looking at **PHP**!

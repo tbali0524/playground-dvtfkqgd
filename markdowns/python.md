@@ -36,4 +36,4 @@ print(ans)
 
 ## Coming next...
 
-Before moving to 'more serious matter' let's another weakly typed, interpreted language which became the de-facto language of web frontends: **JavaScript**!
+Before moving to 'more serious matter' let's another weakly typed, interpreted language which became the de-facto language of web front-ends: **JavaScript**!

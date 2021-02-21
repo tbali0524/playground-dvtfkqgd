@@ -4,12 +4,12 @@ Believe it or not, Pascal was in the top 3 languages when I was a teenager. Let'
 
 ## Checking the sample code
 
-...Except, it seems to be unsupported on `tech.io`...\
-Which is understandable given that it fell out of the top 100 languages by popularity.
+...except, it seems to be unsupported on `tech.io`...\
+Which is understandable, given the factm that it fell out of the top 100 languages by popularity long time ago.
 
-Instead of `Chuck Norris` sample code, let me show you a screenshot from Borland Pascal 7.0, an IDE that was ahead it's time 25+ years ago:
+So, instead of running my `Chuck Norris` sample solution, let me show you a screenshot from Borland Pascal 7.0, an IDE that was ahead it's time 25+ years ago:
 ![Borland Pascal](../pic/pascal.jpg)
-While I knew `Pascal` inside-out, I largely forgotten it, so I will skip going into more details.
+While I knew `Pascal` inside-out, I have largely forgotten it, so I will skip going into more details here.
 
 ## Resources to check
 
@@ -19,4 +19,4 @@ While I knew `Pascal` inside-out, I largely forgotten it, so I will skip going i
 
 ## Coming next...
 
-After this short detour, let's continue with a language that really stood the test of time: **C++**!
+After this short detour, let's continue with a language, that really stood the test of time: **C++**!

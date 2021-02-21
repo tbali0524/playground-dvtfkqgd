@@ -4,12 +4,13 @@
 
 ```C runnable
 #include <stdio.h>
+#include <string.h>
 #include <stdbool.h>
 int main()
 {
     char m[101];
     // fgets(m, 101, stdin);
-    strcpy(m, "CG");
+    strcpy (m, "CG");
     bool b[800];
     int blen = 0;
     for (int i = 0; i < strlen(m); i++)

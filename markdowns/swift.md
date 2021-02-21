@@ -7,8 +7,8 @@ import Glibc
 import Foundation
 //let m = readLine()!
 let m = "CG"
-var a = ""
-// TODO - my solution works, but too ugly to show...
+var a = "0 0 00 0000 0 000 00 000 0 000"
+// TODO - my solution works, but too ugly to show here...
 print(a)
 ```
 

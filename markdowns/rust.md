@@ -3,12 +3,12 @@
 ## Checking the sample code
 
 ```rust runnable
-use std::io;
-macro_rules! parse_input {
-    ($x:expr, $t:ident) => ($x.trim().parse::<$t>().unwrap())
-}
+//use std::io;
+//macro_rules! parse_input {
+//    ($x:expr, $t:ident) => ($x.trim().parse::<$t>().unwrap())
+//}
 fn main() {
-    let mut input_line = String::new();
+    // let mut input_line = String::new();
     // io::stdin().read_line(&mut input_line).unwrap();
     // let m = input_line.trim_matches('\n').to_string();
     let m = "CG";
