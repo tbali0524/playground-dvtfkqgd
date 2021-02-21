@@ -13,7 +13,7 @@ class Solution
     {
         // string m = Console.ReadLine();
         string m = "CG";
-        string[] c = new[2] {"00", "0"};
+        string[] c = new string[2] {"00", "0"};
         var b = "";
         foreach (char ch in m)
             b += Convert.ToString((int)ch, 2).PadLeft(7, '0');
