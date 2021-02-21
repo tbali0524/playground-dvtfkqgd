@@ -31,7 +31,7 @@ void main() {
 
 - TODO
 
-# Resources to check
+## Resources to check
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Dart_(programming_language))
 - [Official tutorial](https://dart.dev/overview)

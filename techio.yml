@@ -4,13 +4,57 @@ plan:
   statement: markdowns/intro.md
 - title: C#
   statement: markdowns/cs.md
+- title: Java
+  statement: markdowns/java.md
 - title: PHP
   statement: markdowns/php.md
 - title: Python
   statement: markdowns/python.md
+- title: Javascript
+  statement: markdowns/javascript.md
+- title: Pascal
+  statement: markdowns/pascal.md
 - title: C++
   statement: markdowns/cpp.md
-- title: D
-  statement: markdowns/d.md
+- title: C
+  statement: markdowns/c.md
+- title: Rust
+  statement: markdowns/rust.md
+- title: Haskell
+  statement: markdowns/haskell.md
+- title: F#
+  statement: markdowns/fs.md
+- title: Bash
+  statement: markdowns/bash.md
 - title: Dart
   statement: markdowns/dart.md
+- title: Go
+  statement: markdowns/go.md
+- title: Groovy
+  statement: markdowns/groovy.md
+- title: Kotlin
+  statement: markdowns/kotlin.md
+- title: Perl
+  statement: markdowns/perl.md
+- title: Ruby
+  statement: markdowns/ruby.md
+- title: Scala
+  statement: markdowns/scala.md
+- title: Swift
+  statement: markdowns/swift.md
+- title: VB.NET
+  statement: markdowns/vbnet.md
+- title: Clojure
+  statement: markdowns/clojure.md
+- title: D
+  statement: markdowns/d.md
+- title: Lua
+  statement: markdowns/lua.md
+- title: Objective-C
+  statement: markdowns/objectivec.md
+- title: OCaml
+  statement: markdowns/ocaml.md
+- title: Typescript
+  statement: markdowns/typescript.md
+- title: Conclusion
+  statement: markdowns/outro.md

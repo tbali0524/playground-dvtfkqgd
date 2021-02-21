@@ -4,9 +4,9 @@
 
 ```python runnable
 import sys
-c = ("00", "0")
 # m = input()
 m = "CG"
+c = ("00", "0")
 b = ""
 for w in m:
     b += bin(ord(w))[2:].zfill(7)
@@ -28,8 +28,12 @@ print(ans)
 
 - TODO
 
-# Resources to check
+## Resources to check
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [Official tutorial](https://docs.python.org/3/tutorial/index.html)
 - [w3schools tutorial](https://www.w3schools.com/python/)
+
+## Coming next...
+
+Before moving to 'more serious matter' let's another weakly typed, interpreted language which became the de-facto language of web frontends: **JavaScript**!

@@ -1,4 +1,4 @@
-# D
+# TypeScript
 
 ## Checking the sample code
 
@@ -14,5 +14,5 @@ Seems to be unsupported on tech.io...
 
 ## Resources to check
 
-- [Overview on Wikipedia](https://en.wikipedia.org/wiki/D_(programming_language))
-- [Official tutorial](https://tour.dlang.org/)
+- [Overview on Wikipedia](https://en.wikipedia.org/wiki/TypeScript)
+- [Official documentation](https://www.typescriptlang.org/)

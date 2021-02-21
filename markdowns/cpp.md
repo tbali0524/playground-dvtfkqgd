@@ -9,7 +9,8 @@ using namespace std;
 int main()
 {
     string m;
-    getline(cin, m);
+    // getline(cin, m);
+    m = "CG";
     string c[2] = {"00", "0"};
     string b;
     for (auto & ch: m)
@@ -22,6 +23,7 @@ int main()
         else
             a += " " + c[b[i] - '0'] + " 0";
     }
+    // cerr << "Debug messages..." << endl;
     cout << a << endl;
 }
 ```
@@ -34,8 +36,10 @@ int main()
 
 - TODO
 
-# Resources to check
+## Resources to check
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/C%2B%2B)
 - [C++ Resources Network](https://www.cplusplus.com/)
 - [w3schools tutorial](https://www.w3schools.com/cpp/)
+
+## Coming next...
