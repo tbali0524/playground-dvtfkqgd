@@ -1,6 +1,6 @@
 # OCaml
 
-![OCaml](../pic/OCaml.png)
+![OCaml](../pic/Ocaml.png)
 
 ## Checking the sample code
 

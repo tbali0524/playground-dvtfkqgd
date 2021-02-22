@@ -1,6 +1,6 @@
 # F#
 
-![F#](../pic/F-Sharp.png)
+![F#](../pic/F-sharp.png)
 
 ## Checking the sample code
 
