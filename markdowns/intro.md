@@ -27,7 +27,7 @@ _Note: In order the code snippets remain runable in tech.io, I commented out the
 
 ## Languages covered
 
-**I recommend to go trhrough this playground in order**, because the language under consideration is compared to the languages discussed earlier, and only new features are highlighted. The order is somewhat arbitral, but I did some grouping to make the discussion a bit easier to follow.
+**I recommend to go through the playground pages in order**, because the language under consideration is compared to the languages discussed earlier, and only the new features are highlighted. The order is somewhat arbitral, but I did some grouping to make the discussion a bit easier to follow.
 
 If you insist, you can still jump to a specific part of the article by using the direct links at the header row.
 
@@ -50,7 +50,7 @@ If you insist, you can still jump to a specific part of the article by using the
 [Ruby](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/ruby)
 [Scala](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/scala)
 [Swift](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/swift)
-[VB.NET](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/vbnet)
+[VB.NET](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/vb-net)
 
 The following languages are supported on `CodinGame`, but not supported on `tech.io`. We will still discuss them shortly.
 [Clojure](https://tech.io/playgrounds/3ea74998ed025233981b1c165b9698b479965/a-babel-of-languages-on-codingame/clojure)
