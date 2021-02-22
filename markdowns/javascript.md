@@ -1,5 +1,7 @@
 # JavaScript
 
+![JavaScript](../pic/JavaScript.png)
+
 ## Checking the sample code
 
 ``` javascript runnable

@@ -1,5 +1,7 @@
 # Perl
 
+![Perl](../pic/Perl.png)
+
 ## Checking the sample code
 
 ```perl runnable

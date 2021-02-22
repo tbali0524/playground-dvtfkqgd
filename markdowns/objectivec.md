@@ -1,5 +1,7 @@
 # Objective-C
 
+![Objective-C](../pic/Objective-C.png)
+
 ## Checking the sample code
 
 Seems to be unsupported on tech.io...

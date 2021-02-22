@@ -1,5 +1,7 @@
 # Groovy
 
+![Groovy](../pic/Groovy.png)
+
 ## Checking the sample code
 
 ```groovy runnable

@@ -1,5 +1,7 @@
 # Go
 
+![Go](../pic/Go.png)
+
 ## Checking the sample code
 
 ```go runnable

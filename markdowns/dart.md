@@ -1,5 +1,7 @@
 # Dart
 
+![Dart](../pic/Dart.png)
+
 ## Checking the sample code
 
 ```dart runnable

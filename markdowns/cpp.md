@@ -1,5 +1,7 @@
 # C++
 
+![C++](../pic/Cpp.png)
+
 ## Checking the sample code
 
 ```C++ runnable

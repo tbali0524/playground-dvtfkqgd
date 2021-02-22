@@ -1,5 +1,7 @@
 # Ruby
 
+![Ruby](../pic/Ruby.png)
+
 ## Checking the sample code
 
 ```ruby runnable

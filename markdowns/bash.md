@@ -1,6 +1,6 @@
 # Bash
 
-![Bash](../pic/Bash.svg)
+![Bash](../pic/Bash.png)
 
 ## Checking the sample code
 

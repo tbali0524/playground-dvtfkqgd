@@ -1,5 +1,7 @@
 # Rust
 
+![Rust](../pic/Rust.png)
+
 ## Checking the sample code
 
 ```rust runnable

@@ -1,5 +1,7 @@
 # TypeScript
 
+![TypeScript](../pic/TypeScript.png)
+
 ## Checking the sample code
 
 Seems to be unsupported on tech.io...

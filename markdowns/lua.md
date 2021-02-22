@@ -1,5 +1,7 @@
 # Lua
 
+![Lua](../pic/Lua.png)
+
 ## Checking the sample code
 
 Seems to be unsupported on tech.io...

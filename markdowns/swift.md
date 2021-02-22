@@ -1,5 +1,7 @@
 # Swift
 
+![Swift](../pic/Swift.png)
+
 ## Checking the sample code
 
 ```swift runnable

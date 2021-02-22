@@ -1,5 +1,7 @@
 # Kotlin
 
+![Kotlin](../pic/Kotlin.png)
+
 ## Checking the sample code
 
 ```kotlin runnable

@@ -1,5 +1,7 @@
 # Python
 
+![Python](../pic/Python.png)
+
 ## Checking the sample code
 
 ```python runnable

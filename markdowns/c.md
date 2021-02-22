@@ -1,5 +1,7 @@
 # C
 
+![C](../pic/C.png)
+
 ## Checking the sample code
 
 ```C runnable

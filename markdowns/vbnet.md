@@ -1,6 +1,6 @@
-# VB.NET
+# VB .NET
 
-![VB.NET](../pic/VB.NET.svg =100x)
+![VB.NET](../pic/VB.NET.png)
 
 ## Checking the sample code
 

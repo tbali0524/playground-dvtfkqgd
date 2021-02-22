@@ -1,15 +1,16 @@
 # Java
 
-Java is 5 years older, than C#. Actually, when C# was introduced in early 2000s, it was accused of being just an imitation of Java. The languages diverged more since that, but the similarities are still quite obvious. Therefore, this page shall be shorterm than the previous one.
+![Java](../pic/Java.png)
+
+When C# was introduced in the early 2000s, it was accused of being "_just an imitation of Java_". (Java is 5 years older than C#.) The two languages diverged much more since that time, but the similarities are still quite obvious.
+Therefore, this section will be much shorter than the previous one.
 
 ## Checking the sample code
-
-**TODO** check why does it not find Main here?
 
 ```java runnable
 import java.util.*;
 
-class Solution {
+public class Main {
 
     public static void main(String args[]) {
         // Scanner in = new Scanner(System.in);
@@ -44,7 +45,7 @@ Some differences:
 
 ## Other characteristics
 
-- Both _Java_ and _C#_ are '_managed_' languages. _Java_ compiles to _Java bytecode_, which is then run on a JVM (_Java Virtual Machine_).
+- Both _Java_ and _C#_ are '_managed_' languages. _Java_ compiles to _Java bytecode_, which is then run on a JVM (_Java Virtual Machine_). Lazter on, we will see some other languages relying on the same JVM.
 - By using _JIT_, their speeds fall in the same range.
 - _Java_ is very popular in the enterprise application development, due to its "_write once, run anywhere_" philosophy.
 

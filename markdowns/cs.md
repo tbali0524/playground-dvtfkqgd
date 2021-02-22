@@ -1,5 +1,7 @@
 # C#
 
+![C#](../pic/C-Sharp.png)
+
 Let's start our journey by visiting **C#**. It is not the most-used language as of today, but provides modern features, and is used widely in enterprise application development projects.
 
 ## Checking the sample code

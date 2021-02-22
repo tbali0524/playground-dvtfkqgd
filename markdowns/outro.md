@@ -12,4 +12,7 @@ Thank you for your time!
 - Join [CG Discord channel](https://discord.com/channels/466965651135922206/466965651135922208) or [CG Forum](https://www.codingame.com/forum/t/languages-update/1574) and harass all Codingamers and the CG staff by insisting to support _language X_! :-)
 - Give me some feedback or pull request on how to improve this `tech.io` article! (It's source is on [github](https://github.com/tbali0524/playground-dvtfkqgd).)
 
+![Meme](../pic/meme.png)
+_(Source: unknown)_
+
 ## Bye!

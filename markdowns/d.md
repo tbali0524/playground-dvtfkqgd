@@ -1,5 +1,7 @@
 # D
 
+![D](../pic/D.png)
+
 ## Checking the sample code
 
 Seems to be unsupported on tech.io...

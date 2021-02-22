@@ -1,5 +1,7 @@
 # F#
 
+![F#](../pic/F-Sharp.png)
+
 ## Checking the sample code
 
 **TODO**: below F# sample code is not functional, so not proper tho showcase the language

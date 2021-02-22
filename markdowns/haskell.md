@@ -1,5 +1,7 @@
 # Haskell
 
+![Haskell](../pic/Haskell.png)
+
 ## Checking the sample code
 
 ```haskell runnable
