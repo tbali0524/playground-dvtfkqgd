@@ -40,3 +40,5 @@ object Solution extends App {
 ## Resources to check
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Scala_(programming_language))
+
+## Coming next...

@@ -1,5 +1,7 @@
 # VB.NET
 
+![VB.NET](../pic/VB.NET.svg =100x)
+
 ## Checking the sample code
 
 ```vb.net runnable
@@ -52,3 +54,5 @@ End Module
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Visual_Basic_.NET)
 - [Official documentation](https://docs.microsoft.com/hu-hu/dotnet/visual-basic/)
+
+## Coming next...

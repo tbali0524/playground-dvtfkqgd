@@ -4,7 +4,7 @@ Let's start our journey by visiting **C#**. It is not the most-used language as 
 
 ## Checking the sample code
 
-Let's start by checking our sample puzzle solution in C#:
+Let's see our sample puzzle solution in C#. It is a traditional, imperative programming style approach.
 
 ```C# runnable
 using System;
@@ -60,7 +60,7 @@ Let's check the above code for some characteristics of C# syntax:
 - `if (b[i] == b[i - 1])`
   + The conditional statement is quite straight-forward, using a comparison operator `==` in the boolean expression.
   + The ternary operator `? :` could have been also used here.
-- `Console.WriteLine(ans);` Writing to the console. We will need this a lot on CodinGame! :-)
+- `Console.WriteLine(ans);` Writing to the console. We will need this a lot on CodinGame! :smiley:
 
 ## Other characteristics
 
@@ -70,8 +70,31 @@ While not directly visible from the above code snippet, there are some other imp
 - _Just-In-Time_ compilation further improves performance. C# code runs still slightly slower than a native compiled code (such as _C++_ or _Rust_), but still much faster than an interpreted language (such as _Python_ or _PHP_).
 - C# is now cross platform. Although developed by _Microsoft_, it is available not only for _Windows_. It also became an _ECMA standard_.
 - C# uses _garbage collection_, so you don't have to bother too much about memory management.
-- C# is a multi-paradigm languages. While its design is heavily OOP focused, you can use functional programming and some other styles.
 - There are many advanced language features we cannot address in this intro, such us _generics_, _attributes_, _delegates_, _LINQ_, etc.
+
+## Checking a different approach
+
+C# is a multi-paradigm language. While its design is heavily OOP focused, you can use it in procedural or functional style. As an illustration, let's revisit the `Chuck Norris` puzzle in a different way!\
+(Contributed by [Djoums](https://www.codingame.com/profile/f0b5a892e52b5ec167931b7bdf52eb982136521)):
+
+```C# runnable
+using System;
+using System.Linq;
+using System.Text.RegularExpressions;
+public static class Solution
+{
+    // Once again, Console.ReadLine() is replaced weith "CG" contant string for the tech.io playground only.
+    public static void Main() =>
+        Console.WriteLine(string.Join(" ", new Regex(@"(.)\1*")
+            .Matches(string.Join("", "CG".Select(c => Convert.ToString(c, 2).PadLeft(7, '0'))))
+            .Select(match => (match.Value[0] == '0' ? "00 " : "0 ") + new string('0', match.Value.Length))));
+}
+```
+
+- We can see the `fluent interface` in action here: Methods can be chained to build a more complex query.
+- A `Regex` (regular expression) is a very concise and efficient way for string manipulation. Its main disadvantage is that the resulting code is hard to read/understand without checking the regex pattern.
+- `new string(...)` Constructors are overloaded. Here, we create a string by repeating a character by a specified amount.
+- `=>` A _lambda expression_ is used to create an anonymous function, that can be passed directly to a method as an argument.
 
 ## For further study
 

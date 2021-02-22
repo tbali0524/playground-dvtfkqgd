@@ -37,12 +37,12 @@ Let's check this code to see the main characteristics of PHP:
 - `const c = ['0' => '00', '1' => '0'];`
   + PHP is also infamous for its inconsistency. Here c is declared to be immutable by adding `const`, but that results, that you must not use the `$` prefix anymore.
   + The assigned literal data structure is _PHP_'s very flexible `array`. It is so flexible, that this is almost all that _PHP_ has! Internally, it is implemented as an ordered hashmap, and you can use it as a `vector`, `stack`, `queue`, `dictionary`, `map`, etc. Having to use a complex data type, even if you need just a fixed-size vector of integers, is many times an overkill, and it largely adds to the slowness of _PHP_.
-- TODO...
+- **TODO** ...continue...
 
 ## Other characteristics
 
 - While not visible from the sample code above, _PHP_ supports multiple programming paradigms. Besides procedural style, it can be used in an object-oriented way. Although not really a functional language, some aspects of functional programming are well supported.
-- PHP is interpreted. You can run your script without a compilation phase. This also means PHP is **SLOW**. All solo puzzles can be solved on CodinGame by choosing the right algorithm, but it does not stand a chance in a CG contests against compiled codes (_C++_, _Rust_, etc.). PHP v8.0 provides Just-In-Time compilation resulting 3-4x speedup for a typical CG puzzle code (but not for a typical web application!), unfortunately CG does not support this version yet.
+- PHP is interpreted. You can run your script without a compilation phase. This also means PHP is **SLOW**. All solo puzzles can be solved on CodinGame by choosing the right algorithm, but it does not stand a chance in a CG contests against compiled codes (_C++_, _Rust_, etc.). `PHP v8.0` provides _Just-In-Time_ compilation resulting 3-4x speedup for a typical CG puzzle code (but not for a typical web application!), unfortunately CG does not support this version yet.
 - ...**TODO**
 
 ## Resources to check
@@ -53,4 +53,6 @@ Let's check this code to see the main characteristics of PHP:
 
 ## Coming next...
 
-Okay, I have to admit I was a bit biased towards _PHP_, because that is the language I know the most. That is why we started the exploration of interpreted languages with it, despite of the undeniable fact, that it is less fancy, than it was 10+ years ago. But now, it is time to move our focus to another language which is even older than _PHP_, but saw an enormous growth in popularity in the past 5+ years: **Python**!
+Okay, I have to admit I was a bit biased towards _PHP_, because that is the language I know the most. That is why we started the exploration of interpreted languages with it, despite of the undeniable fact, that it is now perceived as less fancy, than it was 10+ years ago.
+
+But now, it is time to move our focus to another language which is even older than _PHP_, but saw an enormous growth in popularity in the past 5+ years: **Python**!

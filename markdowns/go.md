@@ -47,3 +47,5 @@ func main() {
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))
 - [Official tutorial](https://golang.org/doc/tutorial/getting-started)
+
+## Coming next...
