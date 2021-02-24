@@ -14,7 +14,7 @@ So, instead of running a `Chuck Norris` sample solution in Pascal, let me show y
 
 ![Borland Pascal](../pic/borlandpascal.jpg)
 
-While I used to know _Pascal_ "inside-out", I admit I have largely forgotten it, so I will skip going into more details here.
+While I used to know _Pascal_ "inside-out", I admit that I have largely forgotten it, so I will skip going into more details here.
 
 ## Resources to check
 
