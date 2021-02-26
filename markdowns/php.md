@@ -55,6 +55,6 @@ Let's check this code to see the main characteristics of PHP:
 
 ## Coming next...
 
-Okay, I have to admit I was a bit biased towards _PHP_, because that is the language I know the most. That is why we started the exploration of interpreted languages with it, despite of the undeniable fact, that it is perceived as less fancy, than it was 10+ years ago.
+Okay, I have to admit I was a bit biased towards _PHP_, because that is the language I know the most. That is why we started the exploration of interpreted languages with it, despite of the undeniable fact, that it is perceived as less fancy than it was 10+ years ago.
 
 But now, it is time to move our focus to another language which is even older than _PHP_, but saw an enormous growth in popularity in the past 5+ years: **Python**!

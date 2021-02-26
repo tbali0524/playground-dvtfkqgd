@@ -14,17 +14,17 @@ for w in m:
     b += bin(ord(w))[2:].zfill(7)
 ans = c[int(b[0])] + " 0"
 for i in range(1, len(b)):
-    if (b[i] == b[i - 1]):
-        ans += '0'
-    else:
-        ans += " " + c[int(b[i])] + " 0"
+    ans += '0' if b[i] == b[i - 1] else " " + c[int(b[i])] + " 0"
 # print("debug message...", file=sys.stderr, flush=True)
 print(ans)
 ```
 
 ## Looking at the syntax
+Even if it is almost a line-by-line conversion of the same imperative-style solution we saw in the previous chapter, the syntax is quite different!
+- Whitespace matters. Blocks for loops and conditional statements are indented. There are no curly braces `{ }` or semicolons `;`.
+- Type system is dynamic.
+- Instead of the traditional `if` statement, here I show _Python_'s ternary operator
 
-- TODO
 
 ## Other characteristics
 
