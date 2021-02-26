@@ -1,6 +1,7 @@
 # JavaScript
 
 ![JavaScript](../pic/JavaScript.png)
+
 _(This page is contributed by [Djoums](https://www.codingame.com/profile/f0b5a892e52b5ec167931b7bdf52eb982136521))_
 
 ## Checking the sample code
