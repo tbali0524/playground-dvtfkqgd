@@ -1,6 +1,7 @@
 # JavaScript
 
 ![JavaScript](../pic/JavaScript.png)
+_(This page is contributed by [Djoums](https://www.codingame.com/profile/f0b5a892e52b5ec167931b7bdf52eb982136521))_
 
 ## Checking the sample code
 
@@ -28,12 +29,12 @@ Let's check the above code for some characteristics of javascript (JS) syntax:
 
 - `//...` Here we commented out the reading from input stream, and replaced it with a simple assignment.
 - `const m = 'CG'`
-  + JS is an interpreted language with dynamically typed variables, which means we never give a type to any of our variables. Variables can even change their underlying type during the course of the program, although it is something you should always avoid unless you have a very good reason to do so.
-  + `const` means readonly and prevents `m` from being reassigned after its initialisation. It is generally a good practice to declare any variable with `const` whenever possible, as it can prevent bugs preemptively and help developpers understand the flow of the code.
+  + JS is an interpreted language with dynamically typed variables, which means we never give a type to any of our variables. Variables can even change their underlying type during the course of the program, although it is something you should always avoid, unless you have a very good reason to do so.
+  + `const` means readonly and prevents `m` from being reassigned after its initialisation. It is generally a good practice to declare any variable with `const` whenever possible, as it can prevent bugs preemptively and help developers understand the flow of the code.
   + `'CG'` is a string but can also be declared as `"CG"`, as long as your choice of quote is consistent, JS will oblige.
 - `c = ['00', '0'];`
   + Since `c` is declared on the same line as `m`, it also receives the `const` modifier.
-  + `[ ]` indicates an array of elements, which in this case is an array containing two strings : `00` and `0`.
+  + `[ ]` indicates an array of elements, which in this case is an array containing two strings: `00` and `0`.
   + `;` at the end of a line is optional in JS and comes down to personal preference.
 - `let b = '';`
   + Opposite to `const` is `let`, which is an indication that this variable is going to see some change in your program.
@@ -51,7 +52,7 @@ Let's check the above code for some characteristics of javascript (JS) syntax:
 - `let a = c[b.charCodeAt(0) - '0'.charCodeAt(0)] + ' 0';` the only new thing in this line is referencing an array's elements using square brackets `[ ]`. Arrays are 0 indexed.
 - `for (let i = 1; i < b.length; i++)` The typical C-style loop syntax. Since `b` is a string, we can access its length by calling its property `length`.
 - `if (b[i] === b[i - 1])`
-  + A straightforward equality comparison, except it is actually not. For historical reasons, the traditional `==` (equality operator) should pretty much never be used in JS, and be replaced with `===` (identity operator). If you want to learn more about it, you can read the detailed explanation here : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
+  + A straightforward equality comparison, except it is actually not. For historical reasons, the traditional `==` (equality operator) should pretty much never be used in JS, and be replaced with `===` (identity operator). If you want to learn more about it, you can read the detailed explanation here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
   + The ternary operator `? :` could have been also used here.
 - `console.log(a);` Writing to the console. We will need this a lot on CodinGame! :smiley:
 
@@ -61,10 +62,10 @@ While not directly visible from the above code snippet, there are some other imp
 
 - As an interpreted language, JS needs an engine to be executed. When navigating on the web, this is done by your browser, and since this is a major part of web pages now, all those engines have been very optimized. V8 is the most used engine, as all the chromium based browsers depend on it, as well as Node.js and the applications built with Electron.
 - JS uses _garbage collection_, so you don't have to manually manage memory. In fact you can't, even if you wanted to, there's no syntax or keyword that would allow you to.
-- JS has a single `Number` type, no int/float/double to be seen here, all the same !
+- JS has a single `Number` type, no int/float/double to be seen here, all the same!
 - JS can be very strong when it comes to functional programming. Functions are treated as any other objects, a principle often called _functions as first class citizens_.
 - There are many advanced language features we cannot address in this intro, such as _interfaces_, _inheritance_, _delegates_, _currying_ etc.
-- One of the infamous characteristics of JS is the complete freedom it gives to the developper. It is so flexible and accepting that you can write pretty much anything, from the awesome to the horrendous. To mitigate this issue and add consistency, TypeScript (TS) was created, as a superset of JS. It means your TS code is _transpiled_ into regular JS before running.
+- One of the infamous characteristics of JS is the complete freedom it gives to the developer. It is so flexible and accepting that you can write pretty much anything, from the awesome to the horrendous. To mitigate this issue and add consistency, TypeScript (TS) was created, as a superset of JS. It means your TS code is _transpiled_ into regular JS before running.
 - _Generics_ are not supoorted in JS, however TS adds that feature.
 
 ## Embracing the freedom
