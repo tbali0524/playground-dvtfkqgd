@@ -29,8 +29,8 @@ _Note: In order the code snippets remain runable in the playground, I commented 
 
 If you insist, you can still jump to a specific part of the playground by using the direct links at the header row.
 
-- Sections ready: _C#_, _Java_, _PHP_, _JavaScript_, _F#, _Python_
-- Sections currently with code snippets only: _C++_, _C_, _Rust_, _Dart_, _Go_, _Perl_, _Ruby_, _Scala_, _VB .NET_
+- Sections ready: _C#_, _Java_, _PHP_, _JavaScript_, _F#_, _Python_
+- Sections with code snippets but without textual description: _C++_, _C_, _Rust_, _Dart_, _Go_, _Perl_, _Ruby_, _Scala_, _VB .NET_
 - Still on the _TODO_ list: _Haskell_, _Bash_, _Groovy_, _Kotlin_, _Swift_,
 - While the following languages are supported on `CodinGame`, we cannot run code on `tech.io`: _Clojure_, _D_, _Lua_, _Objective-C_, _OCaml_, _Pascal_, _TypeScript_
 

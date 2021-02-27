@@ -8,7 +8,8 @@
 open System
 open System.Text.RegularExpressions
 
-Console.In.ReadLine().ToCharArray()
+(* Console.In.ReadLine().ToCharArray() *)
+"CG".ToCharArray()
     |> Array.map (fun c -> Convert.ToString(int c, 2).PadLeft(7, '0'))
     |> String.Concat
     |> fun s -> Regex.Matches(s, "(.)\1*")
@@ -22,6 +23,7 @@ Console.In.ReadLine().ToCharArray()
 
 - This is very different from an imperative style code! A proper introduction to _functional programming_ (FP) is unfortunately beyond the scope of this playground.
 - `|>` is the pipe forward operator, used to chain the function calls.
+- Comments are between `(*` and `*)`. Don't ask...
 - There are some function names (`Convert.ToString` and `PadLeft`) which look exactly the same as in our _C#_ solution. This is not a coincidence. As _C#_, _F#_ and _VB .NET_ are all targeting Microsoft's _Common Language Infrastructure (CLI)_ on _.NET Core_, they share some of the standard libraries.
 - `fun x ->` defines anonymous functions on the fly.
 - `if`..`then`..`else` is not a conditional statement, but a conditional expression so it returns a result.

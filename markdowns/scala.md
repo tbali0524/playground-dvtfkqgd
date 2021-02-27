@@ -4,8 +4,6 @@
 
 ## Checking the sample code
 
-**TODO** check why it does not compile. Looking for Main here, it was not needed on CG.
-
 ```scala runnable
 import scala.io.StdIn._
 
