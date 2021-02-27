@@ -4,6 +4,8 @@
 
 ## Checking the sample code
 
+_**TODO** I need to make a better sample here._
+
 ```C runnable
 #include <stdio.h>
 #include <string.h>
@@ -65,3 +67,5 @@ int main()
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/C_(programming_language))
 
 ## Coming next...
+
+We are going fast and we still don't want to brake. Let's check out **Rust**, aiming to provide memory safety, while keeping the speed...

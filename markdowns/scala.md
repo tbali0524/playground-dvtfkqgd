@@ -9,7 +9,7 @@
 ```scala runnable
 import scala.io.StdIn._
 
-object Solution extends App {
+object Main extends App {
     // val m = readLine
     val m = "CG"
     val c = List("00", "0")

@@ -6,7 +6,7 @@ Believe it or not, Pascal was in the top 3 languages when I was a teenager. Let'
 
 ## Checking the sample code
 
-_...except, we cannot: it seems to be unsupported on_ `tech.io`_..._\
+_...except, we cannot: it seems to be unsupported on_ `tech.io`_..._
 
 Which is understandable, given the fact, that it fell out of the top 100 languages by popularity long time ago.
 

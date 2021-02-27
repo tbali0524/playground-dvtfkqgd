@@ -6,7 +6,7 @@ Let's start our journey by visiting **C#**. It is not the most-used language as 
 
 ## Checking the sample code
 
-Let's see our sample puzzle solution in C#. It is a traditional, imperative programming style approach.
+Let's see our sample puzzle solution in C#. It is a traditional, imperative programming style approach:
 
 ```C# runnable
 using System;
@@ -77,7 +77,7 @@ While not directly visible from the above code snippet, there are some other imp
 ## Checking a different approach
 
 C# is a multi-paradigm language. While its design is heavily OOP focused, you can use it in procedural or in functional style. As an illustration, let's revisit the `Chuck Norris` puzzle in a quite different way!\
-(Contributed by [Djoums](https://www.codingame.com/profile/f0b5a892e52b5ec167931b7bdf52eb982136521)):
+_(Contributed by [Djoums](https://www.codingame.com/profile/f0b5a892e52b5ec167931b7bdf52eb982136521)):_
 
 ```C# runnable
 using System;
@@ -103,6 +103,8 @@ public static class Solution
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 - [Official documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
 - [w3schools tutorial](https://www.w3schools.com/cs/)
+
+![Meme](../pic/meme_cs.png)
 
 ## Coming next...
 

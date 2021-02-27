@@ -8,10 +8,14 @@ plan:
   statement: markdowns/java.md
 - title: PHP
   statement: markdowns/php.md
-- title: Python
-  statement: markdowns/python.md
 - title: Javascript
   statement: markdowns/javascript.md
+- title: F#
+  statement: markdowns/fs.md
+- title: Haskell
+  statement: markdowns/haskell.md
+- title: Python
+  statement: markdowns/python.md
 - title: Pascal
   statement: markdowns/pascal.md
 - title: C++
@@ -20,10 +24,6 @@ plan:
   statement: markdowns/c.md
 - title: Rust
   statement: markdowns/rust.md
-- title: Haskell
-  statement: markdowns/haskell.md
-- title: F#
-  statement: markdowns/fs.md
 - title: Bash
   statement: markdowns/bash.md
 - title: Dart

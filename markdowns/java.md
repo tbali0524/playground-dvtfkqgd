@@ -2,8 +2,7 @@
 
 ![Java](../pic/Java.png)
 
-When C# was introduced in the early 2000s, it was accused of being "_just an imitation of Java_". (Java is 5 years older than C#.) The two languages diverged much more since that time, but the similarities are still quite obvious.
-Therefore, this section will be much shorter than the previous one.
+When C# was introduced in the early 2000s, it was accused of being "_just an imitation of Java_". (Java is 5 years older than C#.) The two languages diverged much more since that time, but the similarities are still quite obvious. Therefore, this section will be much shorter than the previous one.
 
 ## Checking the sample code
 
@@ -36,7 +35,7 @@ public class Main {
 ## Looking at the syntax
 
 We can see similar features as in the C# sample solution, like:
-* _classes_, a static method as _main_, a strong and _static type system_, _arrays_, _type casting_, _iterators_, _loops_, _conditionals_, etc. The syntax is slightly different, but I will not go into detail for these features.
+* _classes_, a _static method_ as main, a strong and _static type system_, _arrays_, _type casting_, _iterators_, _loops_, _conditionals_, etc. The syntax is slightly different, but I will not go into detail for these features.
 
 Some differences:
 - _Java_'s `String` is _immutable_, so `StringBuilder` class is used to append characters to the solution character by character.
@@ -53,6 +52,8 @@ Some differences:
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
 - [w3schools tutorial](https://www.w3schools.com/java/)
+
+![Meme](../pic/meme_java.png)
 
 ## Coming next...
 

@@ -2,6 +2,8 @@
 
 ![C++](../pic/Cpp.png)
 
+_The remaining sections are not ready yet, only some code snippets and tutorial links are provided._
+
 ## Checking the sample code
 
 ```C++ runnable
@@ -45,3 +47,5 @@ int main()
 - [w3schools tutorial](https://www.w3schools.com/cpp/)
 
 ## Coming next...
+
+After the C++ section, we can go forward to _D_ :-), or we can go backwards to **C**. _U'll c which 1 I chose..._

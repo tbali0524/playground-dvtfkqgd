@@ -4,7 +4,7 @@
 
 ## Checking the sample code
 
-Let's start by checking our sample puzzle solution in PHP:
+Our sample puzzle solution looks like this in PHP:
 
 ```php runnable
 <?php
@@ -40,7 +40,7 @@ Let's check this code to see the main characteristics of PHP:
 - `const c = ['0' => '00', '1' => '0'];`
   + _PHP_ is also infamous for its inconsistency. Here c is declared to be immutable by adding `const`, but that results, that you must not use the `$` prefix anymore.
   + The assigned literal data structure is _PHP_'s very flexible `array`. It is so flexible, that this is almost all that PHP has to offer. Internally, it is implemented as an ordered hashmap, and you can use it as a `vector`, `stack`, `queue`, `dictionary`, `map`, etc. Having to use a complex data type, even if you need just a fixed-size vector of integers, is many times an overkill, and it largely adds to the slowness of PHP.
-- Why are there no parentheses around the parameters passed to `echo`? Well, it could have been written as `echo($ans)`, but `echo` is not a normal library function, but a language construct.
+- Why are there no parentheses around the parameters passed to `echo`? Well, it could have been written as `echo($ans)`, but `echo` is not a normal library function, it is a language construct.
 
 ## Other characteristics
 
@@ -53,8 +53,10 @@ Let's check this code to see the main characteristics of PHP:
 - [Official documentation](https://www.php.net/manual/en/getting-started.php)
 - [w3schools tutorial](https://www.w3schools.com/php/)
 
+![Meme](../pic/meme_php.png)
+
 ## Coming next...
 
 Okay, I have to admit I was a bit biased towards _PHP_, because that is the language I know the most. That is why we started the exploration of interpreted languages with it, despite of the undeniable fact, that it is perceived as less fancy than it was 10+ years ago.
 
-But now, it is time to move our focus to another language which is even older than _PHP_, but saw an enormous growth in popularity in the past 5+ years: **Python**!
+No let's check another weakly typed, interpreted language, which became the de-facto standard language of web front-ends: **JavaScript**!

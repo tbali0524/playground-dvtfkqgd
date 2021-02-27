@@ -47,4 +47,6 @@ print $ans . "\n";
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Perl)
 - [Official tutorial](https://www.perl.org/learn.html)
 
+![Meme](../pic/meme_perl.png)
+
 ## Coming next...

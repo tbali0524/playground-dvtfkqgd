@@ -27,10 +27,13 @@ print ans
 ## Other characteristics
 
 - TODO
+- Ruby excels at _Code Golf_. You can write really short code in it.
 
 ## Resources to check
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Ruby_(programming_language))
 - [Official documentation](https://www.ruby-lang.org/en/documentation/)
+
+![Meme](../pic/meme_ruby.png)
 
 ## Coming next...

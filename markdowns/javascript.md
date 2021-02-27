@@ -54,7 +54,7 @@ Let's check the above code for some characteristics of javascript (JS) syntax:
 - `if (b[i] === b[i - 1])`
   + A straightforward equality comparison, except it is actually not. For historical reasons, the traditional `==` (equality operator) should pretty much never be used in JS, and be replaced with `===` (identity operator). If you want to learn more about it, you can read a detailed explanation here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators
   + The ternary operator `? :` could have been also used here.
-- `console.log(a);` Writing to the console. We will need this a lot on CodinGame! :smiley:
+- `console.log(a);` Writing to the console. We will need this a lot on CodinGame! :-)
 
 ## Other characteristics
 
@@ -63,7 +63,7 @@ While not directly visible from the above code snippet, there are some other imp
 - As an interpreted language, JS needs an engine to be executed. When navigating on the web, this is done by your browser, and since this is a major part of web pages now, all those engines have been very optimized. V8 is the most used engine, as all the chromium based browsers depend on it, as well as Node.js and the applications built with Electron.
 - JS uses _garbage collection_, so you don't have to manually manage memory. In fact you can't, even if you wanted to, there's no syntax or keyword that would allow you to.
 - JS has a single `Number` type, no int/float/double to be seen here, all the same! This format makes things simpler but has some drawbacks:
-  + Numbers have a double-precision 64 bits representation, which is fine for many uses but will fail for some. In particular, the maximum exponent attainable for an integer value is 53 in this format, meaning that the maximum integer value for a JS number is `2^53 - 1`. Whereas formats like `long` in other languages can go up to `2^63 - 1`. This can easily cause trouble in CodinGame puzzles and is a limitation authors shoud keep in mind.
+  + Numbers have a double-precision 64 bits representation, which is fine for many uses but will fail for some. In particular, the maximum exponent attainable for an integer value is 53 in this format, meaning that the maximum integer value for a JS number is `2^53 - 1`. Whereas formats like `long` in other languages can go up to `2^63 - 1`. This can easily cause trouble in CodinGame puzzles and is a limitation authors should keep in mind.
   + Numbers being 64 bits by default means you have no control over their memory consumption, there's no way to declare a 16 or 32 bits integer for example.
 - JS can be very strong when it comes to functional programming. Functions are treated as any other objects, a principle often called _functions as first class citizens_.
 - There are many advanced language features we cannot address in this intro, such as _interfaces_, _inheritance_, _delegates_, _currying_ etc.
@@ -84,7 +84,7 @@ console.log('CG' // readline()
     .join(' '));
 ```
 
-As you can see, our code is now a one-liner ! Albeit a long one :smiley:
+As you can see, our code is now a one-liner! Albeit a long one :-)
 We can do so by _chaining function calls_ and construct a single complex query, operation by operation. Let's analyze this new code.
 - `.split('')` splits a string using the given argument as a separator. In this case it is empty, so the function will separate all characters of the string and return an array of chars.
 - `.map(c => ('0' + c.charCodeAt(0).toString(2)).slice(-7))`
@@ -97,7 +97,7 @@ We can do so by _chaining function calls_ and construct a single complex query, 
   + This is a call to a _regular expression_, which is a powerful tool to parse/analyze strings. Powerful but intimidating, because of its very specific syntax and potential complexity. If you want to learn more, you can look at the following guide: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
   + Without going into to much details, this regular expression will split a given string into chunks of the same value, for example the string `10001100` would become `['1', '000', '11', '00']`.
 - `.map(c => ['00 ','0 '][c[0]] + '0'.repeat(c.length))` : another transformative call
-  + `['00 ','0 '][c[0]]` is a small example of the freedom of JS. Here `c[0]` is a string, yet we directly use it to access an array by index. No worries, JS will recognize at runtime that it should be a number and interpret the string as such (if it is not a number, bad things can ensue :smiley:).
+  + `['00 ','0 '][c[0]]` is a small example of the freedom of JS. Here `c[0]` is a string, yet we directly use it to access an array by index. No worries, JS will recognize at runtime that it should be a number and interpret the string as such (if it is not a number, bad things can ensue :-)).
   + `'0'.repeat(c.length)` is straightforward, repeat `'0'` by the given count and make a string as a result.
 - `.join(' ')` our final call. We saw this one earlier but this time we're asking for a space to be inserted between each element of the array.
 
@@ -107,6 +107,8 @@ We can do so by _chaining function calls_ and construct a single complex query, 
 - [Javascript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - [w3schools tutorial](https://www.w3schools.com/js/)
 
+![Meme](../pic/meme_javascript.png)
+
 ## Coming next...
 
-So far, we have seen 2 _managed_ languages and 3 _interpreted_ languages. Now let's change gears and see what speed a _native compiler_ can bring. Entering the stage: ~~C++~~... Nah, what did you think of, it will be **Pascal**, of course! :-)
+In the above Javascript article we have already seen some functional programming in action. Let's dive into this subject even deeper, and visit **F#**!
