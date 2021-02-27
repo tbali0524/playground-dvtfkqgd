@@ -4,6 +4,8 @@
 
 ## Checking the sample code
 
+_(Contributed by [Djoums](https://www.codingame.com/profile/f0b5a892e52b5ec167931b7bdf52eb982136521)):_
+
 ```F# runnable
 open System
 open System.Text.RegularExpressions
