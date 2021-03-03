@@ -29,13 +29,13 @@ Module Solution
             b = b & DecimalToBinary(Asc(ch)).PadLeft(7, "0")
         Next
         Dim a As String = c(Asc(b.Chars(0)) - Asc("0")) & " 0"
-        for i as Integer = 1 To b.Length() - 1
-            if (b(i) = b(i - 1)) then
+        For i as Integer = 1 To b.Length() - 1
+            If (b(i) = b(i - 1)) Then
                 a = a & "0"
-            else
+            Else
                 a = a & " " & c(Asc(b.Chars(i)) - Asc("0")) & " 0"
-            end if
-        next
+            End if
+        Next
         ' Console.Error.WriteLine("Debug messages...")
         Console.WriteLine(a)
     End Sub

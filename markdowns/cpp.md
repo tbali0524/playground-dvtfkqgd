@@ -2,7 +2,10 @@
 
 ![C++](../pic/Cpp.png)
 
-_The remaining sections are not ready yet, only some code snippets and tutorial links are provided._
+_As I mentioned in the intro, this playground is still work in progress._ \
+_The remaining sections are not ready yet, only some code snippets and tutorial links are provided._ \
+_You can check still check sample codes where the exist, or jump to the final, Conclusions page using the page selector above.\
+_Volunteers for contributions for any of the missing pages are welcome!_
 
 ## Checking the sample code
 

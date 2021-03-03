@@ -1,7 +1,7 @@
 # Conclusion
 
 It was a long ride!\
-I hope you liked it, and also learned something new along the road.
+I hope you liked it, and also learned something new along the road.\
 Thank you for your time!
 
 ## Where to go next?

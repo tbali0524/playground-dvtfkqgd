@@ -2,7 +2,7 @@
 
 ![Haskell](../pic/Haskell.png)
 
-Unfortunately, this section is not ready yet as I lack the necessary skills in Haskell...
+Unfortunately, this section is not ready yet, as I lack the necessary skills in Haskell... _(Volunteer contributors are welcome!)_
 
 ![Meme](../pic/meme_c3po.png)
 
