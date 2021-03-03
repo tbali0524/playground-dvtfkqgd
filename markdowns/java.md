@@ -38,19 +38,21 @@ We can see similar features as in the C# sample solution, like:
 * _classes_, a _static method_ as main, a strong and _static type system_, _arrays_, _type casting_, _iterators_, _loops_, _conditionals_, etc. The syntax is slightly different, but I will not go into detail for these features.
 
 Some differences:
-- _Java_'s `String` is _immutable_, so `StringBuilder` class is used to append characters to the solution character by character.
-- In _C#_, even the primitive types are objects. Java features wrapper classes for the same role. (e.g. `Integer` for `int`).
-- And, of course, there are [many more differences](https://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Java), which are not visible from such a short sample code, and are beyond the scope of this short introductory article.
+- _Java_'s `String` is _immutable_, so `StringBuilder` class is used to append characters to the solution character by character. It is converted to a string only at the last step by calling its `toString()` method.
+- In _C#_, even the primitive types are objects. _Java_ features wrapper classes for the same role. (e.g. `Integer` for `int`).
+- Of course, there are [many more differences](https://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Java), which are not visible from such a short sample code, and are beyond the scope of this short introductory article.
 
 ## Other characteristics
 
-- Both _Java_ and _C#_ are '_managed_' languages. _Java_ compiles to _Java bytecode_, which is then run on a JVM (_Java Virtual Machine_). Lazter on, we will see some other languages relying on the same JVM.
+- Both _Java_ and _C#_ are '_managed_' languages. _Java_ compiles to _Java bytecode_, which is then run on a JVM (_Java Virtual Machine_). Later on, we will see some other languages relying on the same JVM as its runtime environment.
 - By using _JIT_, their speeds fall in the same range.
 - _Java_ is very popular in the enterprise application development, due to its "_write once, run anywhere_" philosophy.
+- Besides its _Standard Edition (SE)_, Java has additional editions, such as _Enterprise Edition (Java EE)_ which provides additional facilities for developing and running large, multi-tiered, reliable, and secure enterprise applications. Interestingly, in the past few years Java EE has lost some grounds, because cloud-native or microservice-based applications are more written in plain Java, using other frameworks such as _Spring_.
 
 ## Resources to check
 
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Java_(programming_language))
+- [Official documentation at Oracle](https://docs.oracle.com/en/java/)
 - [w3schools tutorial](https://www.w3schools.com/java/)
 
 ![Meme](../pic/meme_java.png)

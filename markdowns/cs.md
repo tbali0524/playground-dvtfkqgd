@@ -46,7 +46,7 @@ What does the above code snippet reveal about C#?
 - `string m = "CG";`
   + C# has a static and strong type system. `m` is declared as a string and it cannot change its type in this program.
   + Also note, that semicolon `;` ends each statement.
-- `string[] c = new string[2] {"00", "0"};` We have a wide range of available data structures. `c` is declared as an array (vector) holding 2 strings, and it is initialized with some string literals.
+- `string[] c = new string[2] {"00", "0"};` We have a wide range of available data structures. `c` is declared as an array (vector) holding 2 strings, and it is initialized with some string literals. Actually, there is also a shorter syntax for this line, but we are not codegolfing here... _(Note: Codegolfing in C# is futile anyhow, as the language tends to be more verbose than others.)_
 - `var b = "";` Didn't we forget here declaring the type? No, because of _type inference_, the compiler can deduce from the assignment, that b must be a string.
 - `foreach (char ch in m)`
   + we can simply iterate through the characters of a string. `foreach` is available for all _iterable_ data structures.
@@ -55,9 +55,9 @@ What does the above code snippet reveal about C#?
   + We can concatenate strings with the `+` operator. `+` is overloaded, meaning different things if operands are strings or integers.
   + There is a shortcut for the combination of an operator and an assignment (here: `+=`).
   + We can explicitly cast between compatible types: `(int)ch` simply gets the ascii code of the character.
-  + `Convert` is a class in the standard library (remember the `using System;` line above?). Its `ToString` method can be referenced by dot `.`. In true OOP, even a simple string is an object. `ToString()` returns a string, so we can immediately invoke the the `PadLeft()` method of the string class on the result.
+  + `Convert` is a class in the standard library (remember the `using System;` line above?). Its `ToString` method can be referenced by dot `.`. In true OOP, even a simple string is an object. `ToString()` returns a string, so we can immediately invoke the `PadLeft()` method of the string class on the result.
   + While string literals use double quotes `"`, character literals are marked with single quotes `'`.
-- `string ans = c[b[0] - (int)'0'] + " 0";` the only new thing in this line is referencing a vector's elements using square brackets `[ ]`. Vectors are 0 indexed.
+- `string ans = c[b[0] - (int)'0'] + " 0";` the only new thing in this line is referencing an array's elements using square brackets `[ ]`. Arrays are 0 indexed.
 - `for (int i = 1; i < b.Length; i++)` The typical _C_-style loop syntax. As a string is an object, we get its length by accessing its `Length` property, and not by a function call, as for example `strlen()` would do it in _C_.
 - `if (b[i] == b[i - 1])`
   + The conditional statement is quite straight-forward, using a comparison operator `==` in the boolean expression.
@@ -68,11 +68,11 @@ What does the above code snippet reveal about C#?
 
 While not directly visible from the above code snippet, there are some other important aspects of C# worth noting:
 
-- C# is compiled to an intermediate representation, which will be run by a special virtual machine (_Common Language Runtime_). Such managed code provides lot of advantages, like preventing many type of coding bugs.
-- _Just-In-Time_ compilation improves performance. C# code still runs slightly slower than a native compiled code (such as _C++_ or _Rust_), but still much faster than an interpreted language (such as _Python_ or _PHP_).
-- C# is now cross-platform. Although developed by _Microsoft_, it is available not only for _Windows_. It also became an _ECMA standard_.
+- C# is compiled to an intermediate representation, which will be run by a special virtual machine (_Common Language Runtime_). Such managed code provides lot of advantages, like preventing many types of coding bugs.
+- _Just-In-Time_ compilation improves performance. C# code still runs slightly slower than a native compiled code (such as _C++_ or _Rust_), but the disadvantage is not huge, and it is still much faster than an interpreted language (such as _Python_ or _PHP_).
+- C# is now cross-platform. Although developed by _Microsoft_, it is available not only for _Windows_. Also, it became an _ECMA standard_.
 - C# uses _garbage collection_, so you don't have to bother too much about memory management.
-- There are many advanced language features we cannot address in this intro, such us _generics_, _attributes_, _delegates_, _LINQ_, etc.
+- There are many advanced language features we could not address in this intro, such us _generics_, _attributes_, _delegates_, _LINQ_, etc.
 
 ## Checking a different approach
 
@@ -96,7 +96,7 @@ public static class Solution
 - We can see the _fluent interface_ in action here: Method calls can be chained to build a more complex query.
 - A `Regex` (regular expression) is a very concise and efficient way for string manipulation. Its disadvantage is that the resulting code is hard to read/understand without checking the regex pattern.
 - `new string(...)` Constructors are overloaded. Here, we create a string by repeating a character by a specified amount.
-- `=>` A _lambda expression_ is used to create an anonymous function, that can be passed directly to a method as an argument.
+- `=>` A _lambda expression_ is used to create an anonymous function that can be passed directly to a method as an argument.
 
 ## For further study
 
