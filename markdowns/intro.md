@@ -2,7 +2,7 @@
 
 **Note: THIS IS STILL WORK IN PROGRESS! - Feedbacks and contributions welcome!**
 
-**CodinGame** currently supports [**27** different programming languages](https://www.codingame.com/faq).
+**CodinGame** currently supports [**27** different programming languages](https://www.codingame.com/playgrounds/40701/help-center/languages-versions).
 This provides us an excellent opportunity to leave the comfort zone of the language we regularly use, and to check out some new stuff!
 This `tech.io` playground will explore some of the basic characteristics of these programming languages.
 
