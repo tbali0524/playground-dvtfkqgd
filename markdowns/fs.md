@@ -1,4 +1,4 @@
-# F#
+# F\#
 
 ![F#](../pic/F-sharp.png)
 
@@ -9,7 +9,6 @@ _(Contributed by [Djoums](https://www.codingame.com/profile/f0b5a892e52b5ec16793
 ```F# runnable
 open System
 open System.Text.RegularExpressions
-
 (* Console.In.ReadLine().ToCharArray() *)
 "CG".ToCharArray()
     |> Array.map (fun c -> Convert.ToString(int c, 2).PadLeft(7, '0'))
@@ -33,7 +32,8 @@ open System.Text.RegularExpressions
 
 ## Other characteristics
 
-Collections are usually very important in F#, here are some points worth noting :
+Collections are usually very important in F#, here are some points worth noting:
+
 - `Lists` in F# are very different from their C# counterpart. They are immutable singly-linked lists designed for enumeration, but _not_ for direct indexing (you can, but performance will be horrendous).
 - `Arrays` are your usual fixed-size contiguous-memory fast access collections. They are not immutable however. Note that we used an array map call in our example with `Array.map`.
 - `Sequences` are an abstraction that represents a collection, which doesn't care about how the collection is implemented under the hood. They are also _Lazy_, making them very similar to `IEnumerable` in C#. We also used a map call on a sequence in our example, but this time it was with `Seq.map`.

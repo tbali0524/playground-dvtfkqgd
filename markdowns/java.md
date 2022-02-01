@@ -35,9 +35,11 @@ public class Main {
 ## Looking at the syntax
 
 We can see similar features as in the C# sample solution, like:
-* _classes_, a _static method_ as main, a strong and _static type system_, _arrays_, _type casting_, _iterators_, _loops_, _conditionals_, etc. The syntax is slightly different, but I will not go into detail for these features.
+
+- _classes_, a _static method_ as main, a strong and _static type system_, _arrays_, _type casting_, _iterators_, _loops_, _conditionals_, etc. The syntax is slightly different, but I will not go into detail for these features.
 
 Some differences:
+
 - _Java_'s `String` is _immutable_, so `StringBuilder` class is used to append characters to the solution character by character. It is converted to a string only at the last step by calling its `toString()` method.
 - In _C#_, even the primitive types are objects. _Java_ features wrapper classes for the same role. (e.g. `Integer` for `int`).
 - Of course, there are [many more differences](https://en.wikipedia.org/wiki/Comparison_of_C_Sharp_and_Java), which are not visible from such a short sample code, and are beyond the scope of this short introductory article.

@@ -1,4 +1,4 @@
-# C#
+# C\#
 
 ![C#](../pic/C-sharp.png)
 
@@ -44,24 +44,24 @@ What does the above code snippet reveal about C#?
 - `{` C# has curly braces to construct a code block, similarly to _C_ and many other languages. Whitespaces are usually have no meaning.
 - `//...` Here we commented out the reading from input stream, and replaced it with a simple assignment.
 - `string m = "CG";`
-  + C# has a static and strong type system. `m` is declared as a string and it cannot change its type in this program.
-  + Also note, that semicolon `;` ends each statement.
+    - C# has a static and strong type system. `m` is declared as a string and it cannot change its type in this program.
+    - Also note, that semicolon `;` ends each statement.
 - `string[] c = new string[2] {"00", "0"};` We have a wide range of available data structures. `c` is declared as an array (vector) holding 2 strings, and it is initialized with some string literals. Actually, there is also a shorter syntax for this line, but we are not codegolfing here... _(Note: Codegolfing in C# is futile anyhow, as the language tends to be more verbose than others.)_
 - `var b = "";` Didn't we forget here declaring the type? No, because of _type inference_, the compiler can deduce from the assignment, that b must be a string.
 - `foreach (char ch in m)`
-  + we can simply iterate through the characters of a string. `foreach` is available for all _iterable_ data structures.
-  + Also note, that the curly braces `{` and `}` can be omitted, because we use only a single statement within the loop.
+    - we can simply iterate through the characters of a string. `foreach` is available for all _iterable_ data structures.
+    - Also note, that the curly braces `{` and `}` can be omitted, because we use only a single statement within the loop.
 - `b += Convert.ToString((int)ch, 2).PadLeft(7, '0');` Several things are happening in this line, so let's go one by one:
-  + We can concatenate strings with the `+` operator. `+` is overloaded, meaning different things if operands are strings or integers.
-  + There is a shortcut for the combination of an operator and an assignment (here: `+=`).
-  + We can explicitly cast between compatible types: `(int)ch` simply gets the ascii code of the character.
-  + `Convert` is a class in the standard library (remember the `using System;` line above?). Its `ToString` method can be referenced by dot `.`. In true OOP, even a simple string is an object. `ToString()` returns a string, so we can immediately invoke the `PadLeft()` method of the string class on the result.
-  + While string literals use double quotes `"`, character literals are marked with single quotes `'`.
+    - We can concatenate strings with the `+` operator. `+` is overloaded, meaning different things if operands are strings or integers.
+    - There is a shortcut for the combination of an operator and an assignment (here: `+=`).
+    - We can explicitly cast between compatible types: `(int)ch` simply gets the ascii code of the character.
+    - `Convert` is a class in the standard library (remember the `using System;` line above?). Its `ToString` method can be referenced by dot `.`. In true OOP, even a simple string is an object. `ToString()` returns a string, so we can immediately invoke the `PadLeft()` method of the string class on the result.
+    - While string literals use double quotes `"`, character literals are marked with single quotes `'`.
 - `string ans = c[b[0] - (int)'0'] + " 0";` the only new thing in this line is referencing an array's elements using square brackets `[ ]`. Arrays are 0 indexed.
 - `for (int i = 1; i < b.Length; i++)` The typical _C_-style loop syntax. As a string is an object, we get its length by accessing its `Length` property, and not by a function call, as for example `strlen()` would do it in _C_.
 - `if (b[i] == b[i - 1])`
-  + The conditional statement is quite straight-forward, using a comparison operator `==` in the boolean expression.
-  + The ternary operator `? :` could have been also used here, but I wanted to show the traditional `if`.
+    - The conditional statement is quite straight-forward, using a comparison operator `==` in the boolean expression.
+    - The ternary operator `? :` could have been also used here, but I wanted to show the traditional `if`.
 - `Console.WriteLine(ans);` Writing to the console. We will need this a lot on CodinGame! :smiley:
 
 ## Other characteristics

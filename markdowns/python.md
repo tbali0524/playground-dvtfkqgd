@@ -20,7 +20,9 @@ print(ans)
 ```
 
 ## Looking at the syntax
+
 Even if it is almost a line-by-line conversion of the same imperative-style solution that we saw in the C# or PHP chapters, the syntax is quite different:
+
 - Whitespace matters! Blocks for loops and conditional statements are indented. There are no curly braces `{ }` or semicolons `;`.
 - The type system is dynamic. There is not a single mention of any type names in the above code, yet we used _string_, _integer_ and a _tuple_ `( )`. There are also _lists_, _sets_, _dictionaries_ and full _OOP_ support.
 - `[2:]` Slicing is a powerful and efficient tool to process only some part of a datatype such as string or list.
