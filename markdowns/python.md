@@ -43,6 +43,7 @@ Even if it is almost a line-by-line conversion of the same imperative-style solu
 - [Overview on Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [Official tutorial](https://docs.python.org/3/tutorial/index.html)
 - [w3schools tutorial](https://www.w3schools.com/python/)
+- [Scaler Topics Python Tutorial](https://www.scaler.com/topics/python/)
 
 ## Coming next...
 
