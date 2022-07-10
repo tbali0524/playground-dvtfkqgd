@@ -13,7 +13,7 @@ Thank you for your time!
 - Give me some feedback or pull request on how to improve this `Tech.io` playground! (Its source is available on [github](https://github.com/tbali0524/playground-dvtfkqgd).)
 - Check out my other `Tech.io` playgrounds:
     - [Swapping languages on CodinGame (a.k.a. system() calls)](https://www.codingame.com/playgrounds/59982/swapping-languages-on-codingame-a-k-a--system-calls/intro)
-    - [PHP Dev Tools (for CodinGame or elsewhere)](https://www.tech.io/playgrounds/77580/php-dev-tools-for-codingame-or-elsewhere/intro)
+    - [PHP Dev Tools (for CodinGame or elsewhere)](https://www.codingame.com/playgrounds/77580/php-dev-tools-for-codingame-or-elsewhere/intro)
 
 ![Meme](../pic/meme_outro.png)
 
